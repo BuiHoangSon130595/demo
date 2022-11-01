@@ -24,6 +24,7 @@
     </head>
     <body class="antialiased">
         <h1 class="demo">abcd</h1>
+        <img src="{{ Vite::asset('resources/images/test.gif') }}">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
